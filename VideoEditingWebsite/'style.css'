@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.preview {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.library {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+
+.timeline {
+    width: 20%;
+    float: left;
+    padding: 20px;
+}

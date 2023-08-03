@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Editing Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Video Editor</h1>
+    </header>
+    <main>
+        <!-- Your video editing interface goes here -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+<main>
+    <div class="preview">
+        <video id="previewVideo" controls>
+            <source src="media/sample-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="library">
+        <h2>Media Library</h2>
+        <img src="media/sample-image.jpg" alt="Sample Image">
+        <!-- More media items here -->
+    </div>
+    <div class="timeline">
+        <h2>Timeline</h2>
+        <!-- Timeline elements here -->
+    </div>
+</main>
